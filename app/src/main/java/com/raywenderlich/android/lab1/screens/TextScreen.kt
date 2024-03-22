@@ -11,7 +11,8 @@ import com.raywenderlich.android.lab1.router.FundamentalsRouter
 import com.raywenderlich.android.lab1.router.Screen
 
 @Composable
-fun TextScreen() {
+fun MyComposableFunction() {
+    // TODO
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -29,3 +30,7 @@ fun TextScreen() {
 fun MyText() {
     //TODO add your code here
 }
+fun ComponentActivity.setContent(
+    parent: CompositionContext? = null,
+    content: @Composable ()  -> Unit
+) { ... }
